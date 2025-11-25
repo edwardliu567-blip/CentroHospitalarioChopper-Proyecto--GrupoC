@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using CapaNegocio;
 namespace CapaPresentacion
+    //hola
 {
     public partial class inicioSesion : Form
     {
