@@ -1,0 +1,17 @@
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.deps.json
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaNegocio.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.AssemblyInfoInputs.cache
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.AssemblyInfo.cs
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNego.81B9D119.Up2Date
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\refint\CapaNegocio.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\CapaNegocio.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaNegocio\obj\Debug\net8.0-windows\ref\CapaNegocio.dll

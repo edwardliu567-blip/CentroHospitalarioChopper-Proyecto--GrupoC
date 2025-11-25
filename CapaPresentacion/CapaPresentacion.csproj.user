@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="agregarAdministrador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="agregarCita.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="agregarClínica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="agregarMedico.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="agregarPaciente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="agregarTratamiento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="inicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="mantenimientoMedicos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menuPrincipalPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="panelAdministradores.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="panelCitas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="panelClinicas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="panelMedicos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="panelPacientes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="panelTratamientos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

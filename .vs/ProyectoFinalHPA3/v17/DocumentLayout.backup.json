@@ -1,0 +1,779 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cnadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelcitas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cncita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cncita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cnclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\ceadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\ceadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cnpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\menuprincipalpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\menuprincipalpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cnmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\menuprincipalpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\menuprincipalpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cnmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cnmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregartratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregartratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregarcl\u00EDnica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarcl\u00EDnica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregarcl\u00EDnica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarcl\u00EDnica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarcita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\capapresentacion\\agregarmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregarmedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\agregaradministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\agregaradministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\paneladministradores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\paneladministradores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelmedicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdtratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdtratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capanegocio\\cntratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{177D19B7-F566-4AB5-B522-738AF6E395D2}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cntratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelclinicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelclinicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelclinicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelclinicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelpacientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capapresentacion\\panelclinicas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1157AAF2-B25B-4E5A-B127-E5A219306184}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\panelclinicas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\ceclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\ceclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\cepaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cepaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capadatos\\cdpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EB1966-3219-48D2-B656-B7EEC4717A79}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cdpaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\cetratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cetratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\resultadooperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\resultadooperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\cemedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cemedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|c:\\users\\edwar\\onedrive - universidad tecnol\u00F3gica de panam\u00E1\\universidad\\3er a\u00F1o - 2do semestre\\hpa iii\\parcial\\proyectofinalhpa3\\capaentidad\\cecita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30E7DF84-6B99-4EC1-86E9-69FE57024C0C}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cecita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CDCita.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDCita.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDCita.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDCita.cs",
+              "RelativeToolTip": "CapaDatos\\CDCita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:33:27.228Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "panelCitas.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelCitas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelCitas.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelCitas.cs",
+              "RelativeToolTip": "CapaPresentacion\\panelCitas.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswH0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:50:40.012Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CNCita.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNCita.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNCita.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNCita.cs",
+              "RelativeToolTip": "CapaNegocio\\CNCita.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwEMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:34:05.072Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CNClinica.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNClinica.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNClinica.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNClinica.cs",
+              "RelativeToolTip": "CapaNegocio\\CNClinica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:56:43.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CDAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDAdministrador.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDAdministrador.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDAdministrador.cs",
+              "RelativeToolTip": "CapaDatos\\CDAdministrador.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwFwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:06:45.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "inicioSesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\inicioSesion.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\inicioSesion.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\inicioSesion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\inicioSesion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:05:58.554Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inicioSesion.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\inicioSesion.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\inicioSesion.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\inicioSesion.cs",
+              "RelativeToolTip": "CapaPresentacion\\inicioSesion.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAlwDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:15:37.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\MenuPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\MenuPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:01:14.661Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\MenuPrincipal.cs",
+              "RelativeToolTip": "CapaPresentacion\\MenuPrincipal.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAtwFsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:17:34.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CNAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNAdministrador.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNAdministrador.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNAdministrador.cs",
+              "RelativeToolTip": "CapaNegocio\\CNAdministrador.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:10:03.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CEAdministrador.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEAdministrador.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEAdministrador.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEAdministrador.cs",
+              "RelativeToolTip": "CapaEntidad\\CEAdministrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:24:22.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CNMedico.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNMedico.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNMedico.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNMedico.cs",
+              "RelativeToolTip": "CapaNegocio\\CNMedico.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAswH8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:35:41.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "menuPrincipalPanel.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\menuPrincipalPanel.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\menuPrincipalPanel.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\menuPrincipalPanel.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\menuPrincipalPanel.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:42:59.665Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CDMenu.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDMenu.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDMenu.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDMenu.cs",
+              "RelativeToolTip": "CapaDatos\\CDMenu.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:40:24.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "agregarPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarPaciente.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarPaciente.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarPaciente.cs",
+              "RelativeToolTip": "CapaPresentacion\\agregarPaciente.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T04:02:28.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CNPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNPaciente.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNPaciente.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNPaciente.cs",
+              "RelativeToolTip": "CapaNegocio\\CNPaciente.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:10:11.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "agregarPaciente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarPaciente.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarPaciente.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarPaciente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\agregarPaciente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:08:08.919Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CNMenu.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNMenu.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNMenu.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNMenu.cs",
+              "RelativeToolTip": "CapaNegocio\\CNMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:41:28.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "menuPrincipalPanel.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\menuPrincipalPanel.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\menuPrincipalPanel.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\menuPrincipalPanel.cs",
+              "RelativeToolTip": "CapaPresentacion\\menuPrincipalPanel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAEwBUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:43:05.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "agregarCita.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCita.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarCita.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCita.cs",
+              "RelativeToolTip": "CapaPresentacion\\agregarCita.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAkwJIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:51:44.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CDMedico.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDMedico.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDMedico.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDMedico.cs",
+              "RelativeToolTip": "CapaDatos\\CDMedico.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:35:33.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "agregarTratamiento.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarTratamiento.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarTratamiento.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarTratamiento.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\agregarTratamiento.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:20:44.537Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "agregarCl\u00EDnica.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCl\u00EDnica.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarCl\u00EDnica.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCl\u00EDnica.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\agregarCl\u00EDnica.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:20:37.093Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "agregarCl\u00EDnica.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCl\u00EDnica.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarCl\u00EDnica.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCl\u00EDnica.cs",
+              "RelativeToolTip": "CapaPresentacion\\agregarCl\u00EDnica.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:42:36.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "agregarCita.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCita.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarCita.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarCita.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\agregarCita.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:42:07.067Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "agregarMedico.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarMedico.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarMedico.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarMedico.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\agregarMedico.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T03:24:51.621Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "agregarAdministrador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarAdministrador.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\agregarAdministrador.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\agregarAdministrador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\agregarAdministrador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:20:31.012Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "panelAdministradores.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelAdministradores.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelAdministradores.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelAdministradores.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\panelAdministradores.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:06:48.814Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CNTratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNTratamiento.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CNTratamiento.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaNegocio\\CNTratamiento.cs",
+              "RelativeToolTip": "CapaNegocio\\CNTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:35:10.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "panelMedicos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelMedicos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelMedicos.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelMedicos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\panelMedicos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:31:43.206Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "panelMedicos.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelMedicos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelMedicos.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelMedicos.cs",
+              "RelativeToolTip": "CapaPresentacion\\panelMedicos.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAASwHgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:32:54.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CDTratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDTratamiento.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDTratamiento.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDTratamiento.cs",
+              "RelativeToolTip": "CapaDatos\\CDTratamiento.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T01:12:27.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "panelClinicas.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelClinicas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelClinicas.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelClinicas.cs",
+              "RelativeToolTip": "CapaPresentacion\\panelClinicas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:05:22.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "panelClinicas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelClinicas.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelClinicas.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelClinicas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\panelClinicas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:30:01.18Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "panelPacientes.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelPacientes.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelPacientes.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelPacientes.cs",
+              "RelativeToolTip": "CapaPresentacion\\panelPacientes.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:43:50.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "panelPacientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelPacientes.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelPacientes.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelPacientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\panelPacientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:43:42.571Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CEClinica.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEClinica.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEClinica.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEClinica.cs",
+              "RelativeToolTip": "CapaEntidad\\CEClinica.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:03:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CDClinica.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDClinica.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDClinica.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDClinica.cs",
+              "RelativeToolTip": "CapaDatos\\CDClinica.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:03:58.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "panelClinicas.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelClinicas.Designer.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\panelClinicas.Designer.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaPresentacion\\panelClinicas.Designer.cs",
+              "RelativeToolTip": "CapaPresentacion\\panelClinicas.Designer.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAlwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:24:00.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CDPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDPaciente.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CDPaciente.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaDatos\\CDPaciente.cs",
+              "RelativeToolTip": "CapaDatos\\CDPaciente.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:09:54.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CEPaciente.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEPaciente.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEPaciente.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEPaciente.cs",
+              "RelativeToolTip": "CapaEntidad\\CEPaciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:51:04.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CETratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CETratamiento.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CETratamiento.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CETratamiento.cs",
+              "RelativeToolTip": "CapaEntidad\\CETratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:51:11.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "resultadoOperacion.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\resultadoOperacion.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\resultadoOperacion.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\resultadoOperacion.cs",
+              "RelativeToolTip": "CapaEntidad\\resultadoOperacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:51:12.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CEMedico.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEMedico.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CEMedico.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CEMedico.cs",
+              "RelativeToolTip": "CapaEntidad\\CEMedico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:32:44.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CECita.cs",
+              "DocumentMoniker": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CECita.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\CECita.cs",
+              "ToolTip": "C:\\Users\\edwar\\OneDrive - Universidad Tecnol\u00F3gica de Panam\u00E1\\Universidad\\3er A\u00F1o - 2do Semestre\\HPA III\\Parcial\\ProyectoFinalHPA3\\CapaEntidad\\CECita.cs",
+              "RelativeToolTip": "CapaEntidad\\CECita.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:43:11.564Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.deps.json
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\bin\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\bin\Debug\net8.0-windows\CapaEntidad.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\bin\Debug\net8.0-windows\CapaEntidad.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.AssemblyInfo.cs
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.csproj.Up2Date
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\refint\CapaDatos.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.pdb
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\ref\CapaDatos.dll
