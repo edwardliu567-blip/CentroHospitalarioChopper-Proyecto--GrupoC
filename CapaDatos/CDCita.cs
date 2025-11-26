@@ -110,5 +110,18 @@ namespace CapaDatos
                 cmd.ExecuteNonQuery();
             }
         }
+        public DataTable VerCitasMenu()
+        {
+            using (SqlConnection cn = new SqlConnection(conexion))
+            using (SqlCommand cmd = new SqlCommand("sp_Ver_Cita_Menu", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
+        }
+
     }
 }

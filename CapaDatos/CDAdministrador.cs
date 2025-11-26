@@ -72,6 +72,7 @@ namespace CapaDatos
             }
         }
 
+
         public DataTable FiltrarAdministradores(string idAdmin, string nombreAdmin)
         {
             using (SqlConnection cn = new SqlConnection(conexion))
@@ -103,6 +104,58 @@ namespace CapaDatos
             }
 
         }
+
+        public string AgregarAdministrador_ConClave(CEAdministrador admin)
+        {
+            using (SqlConnection cn = new SqlConnection(conexion))
+            using (SqlCommand cmd = new SqlCommand("sp_Agregar_Administrador_ConClave", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@id_admin", admin.IdAdmin);
+                cmd.Parameters.AddWithValue("@nombre_admin", admin.NombreAdmin);
+                cmd.Parameters.AddWithValue("@apellido_admin", admin.ApellidoAdmin);
+                cmd.Parameters.AddWithValue("@email_admin", admin.EmailAdmin);
+                cmd.Parameters.AddWithValue("@clave_admin", admin.clave);
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                cn.Close();
+
+                return "Administrador agregado correctamente.";
+            }
+        }
+        public string ActualizarAdministrador_ConClave(CEAdministrador admin)
+        {
+            using (SqlConnection cn = new SqlConnection(conexion))
+            using (SqlCommand cmd = new SqlCommand("sp_Actualizar_Administrador_ConClave", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@id_admin", admin.IdAdmin);
+                cmd.Parameters.AddWithValue("@nombre_admin", admin.NombreAdmin);
+                cmd.Parameters.AddWithValue("@apellido_admin", admin.ApellidoAdmin);
+                cmd.Parameters.AddWithValue("@email_admin", admin.EmailAdmin);
+                cmd.Parameters.AddWithValue("@clave_admin", admin.clave);
+
+                cn.Open();
+                cmd.ExecuteNonQuery();
+                cn.Close();
+
+                return "Administrador actualizado correctamente.";
+            }
+        }
+        public DataTable VerAdministradores_ConClave()
+        {
+            SqlConnection cn = new SqlConnection(conexion);
+            SqlCommand cmd = new SqlCommand("sp_Ver_Administradores_ConClave", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+
+
 
 
     }

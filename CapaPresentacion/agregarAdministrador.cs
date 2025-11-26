@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace CapaPresentacion
 {
@@ -18,13 +19,9 @@ namespace CapaPresentacion
         public agregarAdministrador()
         {
             InitializeComponent();
-            dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores();
+            dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores_ConClave();
+            textBoxClave.UseSystemPasswordChar = true;
         }
-        private void agregarAdministrador_Load(object sender, EventArgs e)
-        {
-            dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores();
-        }
-
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -38,14 +35,16 @@ namespace CapaPresentacion
                 IdAdmin = txtIDAdmin.Text,
                 NombreAdmin = txtNombreAdmin.Text,
                 ApellidoAdmin = txtApellidoAdmin.Text,
-                EmailAdmin = txtCorreoAdmin.Text
+                EmailAdmin = txtCorreoAdmin.Text,
+                clave = textBoxClave.Text
+
             };
 
-            string resultado = cnAdmin.AgregarAdministrador(admin);
+            string resultado = cnAdmin.AgregarAdministrador_ConClave(admin);
             MessageBox.Show(resultado);
 
             if (resultado == "Administrador agregado correctamente.")
-                dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores();
+                dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores_ConClave();
 
         }
 
@@ -61,14 +60,15 @@ namespace CapaPresentacion
                 IdAdmin = txtIDAdmin.Text,
                 NombreAdmin = txtNombreAdmin.Text,
                 ApellidoAdmin = txtApellidoAdmin.Text,
-                EmailAdmin = txtCorreoAdmin.Text
+                EmailAdmin = txtCorreoAdmin.Text,
+                clave = textBoxClave.Text
             };
 
-            string resultado = cnAdmin.ActualizarAdministrador(admin);
+            string resultado = cnAdmin.ActualizarAdministrador_ConClave(admin);
             MessageBox.Show(resultado);
 
             if (resultado == "Administrador actualizado correctamente.")
-                dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores();
+                dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores_ConClave();
 
         }
 
@@ -79,7 +79,49 @@ namespace CapaPresentacion
             MessageBox.Show(resultado);
 
             if (resultado == "Administrador eliminado correctamente.")
-               dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores();
+                dgvAdministradorMan.DataSource = cnAdmin.VerAdministradores_ConClave();
+
+        }
+
+        private void textBoxClave_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvAdministradorMan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvAdministradorMan_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0) return; // Evita clic en encabezado
+
+            DataGridViewRow fila = dgvAdministradorMan.Rows[e.RowIndex];
+
+            // Validación: fila vacía o sin datos
+            if (fila == null || fila.Cells.Cast<DataGridViewCell>().All(c => c.Value == null || string.IsNullOrWhiteSpace(c.Value.ToString())))
+            {
+                MessageBox.Show("El registro seleccionado está vacío o no contiene datos válidos.",
+                                "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Carga segura de campos
+            if (dgvAdministradorMan.Columns.Contains("ID") && fila.Cells["ID"].Value != null)
+                txtIDAdmin.Text = fila.Cells["ID"].Value.ToString();
+
+            if (dgvAdministradorMan.Columns.Contains("Nombre") && fila.Cells["Nombre"].Value != null)
+                txtNombreAdmin.Text = fila.Cells["Nombre"].Value.ToString();
+
+            if (dgvAdministradorMan.Columns.Contains("Apellido") && fila.Cells["Apellido"].Value != null)
+                txtApellidoAdmin.Text = fila.Cells["Apellido"].Value.ToString();
+
+            if (dgvAdministradorMan.Columns.Contains("Correo") && fila.Cells["Correo"].Value != null)
+                txtCorreoAdmin.Text = fila.Cells["Correo"].Value.ToString();
+
+            if (dgvAdministradorMan.Columns.Contains("Clave") && fila.Cells["Clave"].Value != null)
+                textBoxClave.Text = fila.Cells["Clave"].Value.ToString();
 
         }
     }

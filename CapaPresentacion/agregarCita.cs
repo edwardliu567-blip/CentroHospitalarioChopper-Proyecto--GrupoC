@@ -66,11 +66,21 @@ namespace CapaPresentacion
         private void CargarAdministradores()
         {
             DataTable dt = cnAdmin.VerAdministradores();
-            dt.Columns.Add("NombreCompleto", typeof(string), "nombre_admin + ' ' + apellido_admin");
+            if (!dt.Columns.Contains("Nombre"))
+                throw new InvalidOperationException("La columna 'Nombre' no está presente en el DataTable.");
+
+            // Crea columna 'NombreCompleto' y copia el valor de 'Nombre'
+            dt.Columns.Add("NombreCompleto", typeof(string));
+            foreach (DataRow row in dt.Rows)
+            {
+                row["NombreCompleto"] = row["Nombre"]?.ToString()?.Trim();
+            }
+
             cmbAdminCita.DataSource = dt;
             cmbAdminCita.DisplayMember = "NombreCompleto";
             cmbAdminCita.ValueMember = "id_admin";
             cmbAdminCita.SelectedIndex = -1;
+
         }
 
         private void CargarClinicas()
@@ -104,7 +114,6 @@ namespace CapaPresentacion
 
             CECita cita = new CECita
             {
-                IdCita = int.Parse(numericUpDownIDCita.Text),
                 FechaCita = dtpFechaCita.Value.Date,
                 HoraCita = dtpHoraCita.Value.TimeOfDay,
                 EstadoCita = "Pendiente",
@@ -116,12 +125,9 @@ namespace CapaPresentacion
                 IdAdmin = cmbAdminCita.SelectedValue?.ToString()
             };
 
-            string resultado = cnCita.ActualizarCita(cita);
+            string resultado = cnCita.AgregarCita(cita);
             MessageBox.Show(resultado);
             dataGridView1.DataSource = cnCita.VerCitas();
-
-
-
         }
 
         private void cmbSurcursalCita_SelectedIndexChanged(object sender, EventArgs e)
@@ -186,6 +192,13 @@ namespace CapaPresentacion
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow fila = dataGridView1.Rows[e.RowIndex];
+                if (fila == null || fila.Cells.Cast<DataGridViewCell>().All(c => c.Value == null || string.IsNullOrWhiteSpace(c.Value.ToString())))
+                {
+                    MessageBox.Show("El registro seleccionado está vacío o no contiene datos válidos.",
+                                    "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
                 numericUpDownIDCita.Text = fila.Cells["id_cita"].Value.ToString();
                 dtpFechaCita.Value = Convert.ToDateTime(fila.Cells["fecha_cita"].Value);
                 dtpHoraCita.Value = DateTime.Today.Add((TimeSpan)fila.Cells["hora_cita"].Value);

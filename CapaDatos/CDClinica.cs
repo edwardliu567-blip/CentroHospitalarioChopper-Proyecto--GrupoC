@@ -62,14 +62,18 @@ namespace CapaDatos
         }
         public DataTable FiltrarClinicas(string nombreClinica, int? idClinica)
         {
-            SqlCommand cmd = new SqlCommand("sp_Filtrar_Clinicas", cn);
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@id_clinica", idClinica.HasValue ? (object)idClinica.Value : DBNull.Value);
-            cmd.Parameters.AddWithValue("@nombre_clinica", string.IsNullOrEmpty(nombreClinica) ? (object)DBNull.Value : nombreClinica);
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            using (SqlCommand cmd = new SqlCommand("sp_Filtrar_Clinicas", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@id_clinica", idClinica.HasValue ? (object)idClinica.Value : DBNull.Value);
+                cmd.Parameters.AddWithValue("@nombre_clinica", string.IsNullOrEmpty(nombreClinica) ? (object)DBNull.Value : nombreClinica);
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                return dt;
+            }
+
         }
     }
 

@@ -14,6 +14,7 @@ namespace CapaPresentacion
     public partial class panelTratamientos : UserControl
     {
         private CNTratamiento cnTratamiento = new CNTratamiento();
+        private bool tablaTratamientosFiltrada = false;
 
         public panelTratamientos()
         {
@@ -43,16 +44,28 @@ namespace CapaPresentacion
 
         private void dgvTrata_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (tablaTratamientosFiltrada)
+            {
+                MessageBox.Show("No se puede seleccionar registros mientras la tabla está filtrada.",
+                                "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (e.RowIndex >= 0) // aseguramos que no sea el header
             {
                 DataGridViewRow fila = dgvTrata.Rows[e.RowIndex];
-
+                if (fila == null || fila.Cells.Cast<DataGridViewCell>().All(c => c.Value == null || string.IsNullOrWhiteSpace(c.Value.ToString())))
+                {
+                    MessageBox.Show("El registro seleccionado está vacío o no contiene datos válidos.",
+                                    "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 // ID en NumericUpDown (conversión segura)
                 if (fila.Cells["id_tratamiento"].Value != null)
                 {
                     filtroIdTrata.Value = Convert.ToInt32(fila.Cells["id_tratamiento"].Value);
                 }
-
+                
                 // Nombre en TextBox
                 if (fila.Cells["nombre_tratamiento"].Value != null)
                 {
@@ -68,6 +81,7 @@ namespace CapaPresentacion
             filtroIdTrata.Value = 0;
             textBoxNombreTrata.Clear();
             dgvTrata.DataSource = cnTratamiento.VerTratamientos();
+            tablaTratamientosFiltrada = false;
         }
 
         private void btnBuscarTrata_Click(object sender, EventArgs e)
@@ -85,12 +99,15 @@ namespace CapaPresentacion
             if (dt.Rows.Count > 0)
             {
                 dgvTrata.DataSource = dt;
+                tablaTratamientosFiltrada = true;   // ← bandera activada
             }
             else
             {
                 MessageBox.Show("No se encontraron tratamientos con los criterios especificados.");
                 dgvTrata.DataSource = null;
+                tablaTratamientosFiltrada = false;  // ← bandera desactivada
             }
+
 
         }
 

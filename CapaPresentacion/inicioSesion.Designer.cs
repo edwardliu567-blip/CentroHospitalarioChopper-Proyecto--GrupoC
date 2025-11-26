@@ -36,10 +36,10 @@
             button1 = new Button();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
+            linkLabel1 = new LinkLabel();
             panel2 = new Panel();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            linkLabel1 = new LinkLabel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -125,6 +125,17 @@
             panel1.Size = new Size(555, 611);
             panel1.TabIndex = 8;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(41, 574);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(29, 15);
+            linkLabel1.TabIndex = 10;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Salir";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
             // panel2
             // 
             panel2.Controls.Add(textBox1);
@@ -150,18 +161,8 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(263, 23);
             textBox2.TabIndex = 8;
+            textBox2.TextChanged += textBox2_TextChanged;
             textBox2.KeyDown += textBox2_KeyDown;
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(41, 574);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(29, 15);
-            linkLabel1.TabIndex = 10;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Salir";
-            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // inicioSesion
             // 

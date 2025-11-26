@@ -12,12 +12,15 @@ using CapaNegocio;
 namespace CapaPresentacion
 {
     public partial class panelAdministradores : UserControl
+
     {
         private CNAdministrador cnAdmin = new CNAdministrador();
+        private bool tablaAdministradoresFiltrada = false;
         public panelAdministradores()
         {
             InitializeComponent();
             dgvAdmin.DataSource = cnAdmin.VerAdministradores();
+           
         }
 
         private void dgvAdmin_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -50,12 +53,15 @@ namespace CapaPresentacion
             if (dt.Rows.Count > 0)
             {
                 dgvAdmin.DataSource = dt;
+                tablaAdministradoresFiltrada = true;   // ← bandera activada
             }
             else
             {
                 MessageBox.Show("No se encontraron administradores con los criterios especificados.");
                 dgvAdmin.DataSource = null;
+                tablaAdministradoresFiltrada = false;  // ← bandera desactivada
             }
+
 
 
         }
@@ -87,16 +93,43 @@ namespace CapaPresentacion
         private void btnQuitarFiltroAdmin_Click(object sender, EventArgs e)
         {
             dgvAdmin.DataSource = cnAdmin.VerAdministradores();
+            tablaAdministradoresFiltrada = false;
         }
 
         private void dgvAdmin_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Bloquear si la tabla está filtrada
+            if (tablaAdministradoresFiltrada)
+            {
+                MessageBox.Show("No se puede seleccionar registros mientras la tabla está filtrada.",
+                                "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow fila = dgvAdmin.Rows[e.RowIndex];
-                textBox1.Text = fila.Cells["id_admin"].Value.ToString();
-                textBoxNombreAdmin.Text = fila.Cells["nombre_admin"].Value.ToString() + "," + fila.Cells["apellido_admin"].Value.ToString();
+
+                // Bloquear si el registro es null o vacío
+                if (fila == null || fila.Cells.Cast<DataGridViewCell>().All(c => c.Value == null || string.IsNullOrWhiteSpace(c.Value.ToString())))
+                {
+                    MessageBox.Show("El registro seleccionado está vacío o no contiene datos válidos.",
+                                    "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // ID del administrador
+                if (dgvAdmin.Columns.Contains("id_admin") && fila.Cells["id_admin"].Value != null)
+                    textBox1.Text = fila.Cells["id_admin"].Value.ToString();
+
+                // Nombre del administrador
+                if (dgvAdmin.Columns.Contains("Nombre") && fila.Cells["Nombre"].Value != null)
+                    textBoxNombreAdmin.Text = fila.Cells["Nombre"].Value.ToString();
             }
+
         }
+
     }
+
 }
+

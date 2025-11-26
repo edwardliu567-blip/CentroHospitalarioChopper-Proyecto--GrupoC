@@ -14,6 +14,7 @@ namespace CapaPresentacion
     public partial class panelClinicas : UserControl
     {
         private CNClinica cnClinica = new CNClinica();
+        private bool tablaClinicaFiltrada = false;
         public panelClinicas()
         {
             InitializeComponent();
@@ -36,20 +37,16 @@ namespace CapaPresentacion
 
         private void dgvClinicas_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow fila = dgvClinicas.Rows[e.RowIndex];
-                filtroIdClinica.Text = fila.Cells["id_clinica"].Value.ToString();
-                textBoxNombreClinicas.Text = fila.Cells["nombre_clinica"].Value.ToString();
-            }
 
         }
 
         private void btnQuitarFiltroClinica_Click(object sender, EventArgs e)
         {
             filtroIdClinica.Value = 0;
+            tablaClinicaFiltrada = false;
             textBoxNombreClinicas.Clear();
             dgvClinicas.DataSource = cnClinica.VerClinicas();
+
         }
 
 
@@ -64,6 +61,7 @@ namespace CapaPresentacion
             int? idClinica = null;
             if (int.TryParse(filtroIdClinica.Text.Trim(), out int id))
                 idClinica = id;
+            tablaClinicaFiltrada = true;
 
             string nombreClinica = textBoxNombreClinicas.Text.Trim();
             dgvClinicas.DataSource = null;
@@ -108,12 +106,24 @@ namespace CapaPresentacion
 
         private void dgvClinicas_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (tablaClinicaFiltrada)
+            {
+                MessageBox.Show("No se puede seleccionar registros mientras la tabla está filtrada.", "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow fila = dgvClinicas.Rows[e.RowIndex];
-                filtroIdClinica.Text = fila.Cells["id_clinica"].Value.ToString();
-                textBoxNombreClinicas.Text = fila.Cells["nombre_clinica"].Value.ToString();
+
+                // Validación defensiva por si las columnas cambian
+                if (dgvClinicas.Columns.Contains("id_clinica"))
+                    filtroIdClinica.Text = fila.Cells["id_clinica"].Value?.ToString();
+
+                if (dgvClinicas.Columns.Contains("nombre_clinica"))
+                    textBoxNombreClinicas.Text = fila.Cells["nombre_clinica"].Value?.ToString();
             }
+
         }
     }
 }

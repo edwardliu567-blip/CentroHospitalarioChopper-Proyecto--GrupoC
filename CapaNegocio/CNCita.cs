@@ -105,7 +105,10 @@ namespace CapaNegocio
         {
             cdCita.ActualizarEstadoCita(idCita, nuevoEstado);
         }
-
+        public DataTable VerCitasMenu()
+        {
+            return cdCita.VerCitasMenu();
+        }
 
 
     }
