@@ -26,7 +26,12 @@ namespace CapaPresentacion
         private void CargarAdministradores()
         {
             DataTable dt = cnAdmin.VerAdministradores();
-            dt.Columns.Add("NombreCompleto", typeof(string), "nombre_admin + ' ' + apellido_admin");
+            dt.Columns.Add("NombreCompleto", typeof(string));
+            foreach (DataRow row in dt.Rows)
+            {
+                string nombre = row["Nombre"]?.ToString() ?? "";
+                row["NombreCompleto"] = nombre.Trim();
+            }
             cmbAdmin.DataSource = dt;
             cmbAdmin.DisplayMember = "NombreCompleto";
             cmbAdmin.ValueMember = "id_admin";

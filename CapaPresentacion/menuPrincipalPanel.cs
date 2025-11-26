@@ -40,5 +40,10 @@ namespace CapaPresentacion
         {
 
         }
+
+        private void lblCitasHoy_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -91,12 +91,12 @@
             // lblMedicos
             // 
             lblMedicos.AutoSize = true;
-            lblMedicos.Font = new Font("Segoe UI", 32F);
-            lblMedicos.Location = new Point(65, 21);
+            lblMedicos.Font = new Font("Segoe UI", 48F);
+            lblMedicos.Location = new Point(82, 7);
             lblMedicos.Name = "lblMedicos";
-            lblMedicos.Size = new Size(103, 59);
+            lblMedicos.Size = new Size(72, 86);
             lblMedicos.TabIndex = 1;
-            lblMedicos.Text = "asdf";
+            lblMedicos.Text = "1";
             lblMedicos.TextAlign = ContentAlignment.MiddleCenter;
             lblMedicos.Click += label1_Click;
             // 
@@ -125,12 +125,12 @@
             // lblPacientes
             // 
             lblPacientes.AutoSize = true;
-            lblPacientes.Font = new Font("Segoe UI", 32F);
-            lblPacientes.Location = new Point(52, 21);
+            lblPacientes.Font = new Font("Segoe UI", 48F);
+            lblPacientes.Location = new Point(84, 7);
             lblPacientes.Name = "lblPacientes";
-            lblPacientes.Size = new Size(137, 59);
+            lblPacientes.Size = new Size(72, 86);
             lblPacientes.TabIndex = 1;
-            lblPacientes.Text = "label2";
+            lblPacientes.Text = "2";
             // 
             // labelCantPacientes
             // 
@@ -218,12 +218,13 @@
             // lblCitasHoy
             // 
             lblCitasHoy.AutoSize = true;
-            lblCitasHoy.Font = new Font("Segoe UI", 32F);
-            lblCitasHoy.Location = new Point(53, 21);
+            lblCitasHoy.Font = new Font("Segoe UI", 48F);
+            lblCitasHoy.Location = new Point(84, 7);
             lblCitasHoy.Name = "lblCitasHoy";
-            lblCitasHoy.Size = new Size(137, 59);
+            lblCitasHoy.Size = new Size(72, 86);
             lblCitasHoy.TabIndex = 2;
-            lblCitasHoy.Text = "label5";
+            lblCitasHoy.Text = "1";
+            lblCitasHoy.Click += lblCitasHoy_Click;
             // 
             // labelCantCitas
             // 

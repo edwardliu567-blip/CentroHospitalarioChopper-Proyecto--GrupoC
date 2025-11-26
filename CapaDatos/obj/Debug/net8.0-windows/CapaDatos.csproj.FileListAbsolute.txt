@@ -13,3 +13,4 @@ C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er A�
 C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\refint\CapaDatos.dll
 C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.pdb
 C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\ref\CapaDatos.dll
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaDatos\obj\Debug\net8.0-windows\CapaDatos.sourcelink.json

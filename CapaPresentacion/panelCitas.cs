@@ -13,11 +13,12 @@ namespace CapaPresentacion
 {
     public partial class panelCitas : UserControl
     {
+        private bool tablaCitasFiltrada = false;
         private CNCita cNCita = new CNCita();
         public panelCitas()
         {
             InitializeComponent();
-            dgvCitas.DataSource = cNCita.VerCitas();
+            dgvCitas.DataSource = cNCita.VerCitasMenu();
 
         }
         private void cambiarPanel(UserControl panel)
@@ -67,14 +68,16 @@ namespace CapaPresentacion
             if (dt.Rows.Count > 0)
             {
                 dgvCitas.DataSource = dt;
+                tablaCitasFiltrada = true;   // ← bandera activada
             }
             else
             {
                 MessageBox.Show("No se encontraron citas con los criterios especificados.");
                 dgvCitas.DataSource = null;
+                tablaCitasFiltrada = false;  // ← bandera desactivada
             }
-
         }
+
 
         private void dateCitaInicio_ValueChanged(object sender, EventArgs e)
         {
@@ -105,31 +108,46 @@ namespace CapaPresentacion
             dateCitaFinal.Checked = false;
             txtPacienteNombre.Clear();
             txtIdPacienteBuscador.Clear();
-            dgvCitas.DataSource = cNCita.VerCitas();
+            dgvCitas.DataSource = cNCita.VerCitasMenu();
+            tablaCitasFiltrada = false;
         }
 
         private void dgvCitas_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            if (tablaCitasFiltrada)
+            {
+                MessageBox.Show("No se puede seleccionar registros mientras la tabla está filtrada.",
+                                "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow fila = dgvCitas.Rows[e.RowIndex];
-                // Nombre completo del médico
-                if (fila.Cells["nombre_medico"].Value != null)
-                    textBox3.Text = fila.Cells["nombre_medico"].Value.ToString();
+                if (fila == null || fila.Cells.Cast<DataGridViewCell>().All(c => c.Value == null || string.IsNullOrWhiteSpace(c.Value.ToString())))
+                {
+                    MessageBox.Show("El registro seleccionado está vacío o no contiene datos válidos.",
+                                    "Acción bloqueada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
-                // Motivo de la cita
-                if (fila.Cells["motivo_cita"].Value != null)
-                    textBox2.Text = fila.Cells["motivo_cita"].Value.ToString();
+                if (dgvCitas.Columns.Contains("Médico"))
+                    textBox3.Text = fila.Cells["Médico"].Value?.ToString();
 
-                // Guardar el ID de la cita para actualizar estado después
-                if (fila.Cells["id_Cita"].Value != null)
-                    idCita1.Value = Convert.ToInt32(fila.Cells["id_Cita"].Value);
-                if (fila.Cells["nombre_paciente"].Value !=null)
-                    txtPacienteNombre.Text = fila.Cells["nombre_paciente"].Value.ToString();
-                if (fila.Cells["ced_paciente"].Value != null)
-                    txtIdPacienteBuscador.Text = fila.Cells["ced_paciente"].Value.ToString();
+                if (dgvCitas.Columns.Contains("Motivo"))
+                    textBox2.Text = fila.Cells["Motivo"].Value?.ToString();
 
+                if (dgvCitas.Columns.Contains("ID Cita"))
+                    idCita1.Value = Convert.ToInt32(fila.Cells["ID Cita"].Value);
+
+                if (dgvCitas.Columns.Contains("Paciente"))
+                    txtPacienteNombre.Text = fila.Cells["Paciente"].Value?.ToString();
+
+                if (dgvCitas.Columns.Contains("Cédula del paciente"))
+                    txtIdPacienteBuscador.Text = fila.Cells["Cédula del paciente"].Value?.ToString();
             }
+
+
 
         }
 
@@ -138,7 +156,7 @@ namespace CapaPresentacion
             int idCita = (int)idCita1.Value;
             cNCita.ActualizarEstadoCita(idCita, "Confirmada");
             MessageBox.Show("La cita ha sido confirmada.");
-            dgvCitas.DataSource = cNCita.VerCitas();
+            dgvCitas.DataSource = cNCita.VerCitasMenu();
         }
 
         private void btnCompletarCita_Click(object sender, EventArgs e)
@@ -146,7 +164,7 @@ namespace CapaPresentacion
             int idCita = (int)idCita1.Value;
             cNCita.ActualizarEstadoCita(idCita, "Completada");
             MessageBox.Show("La cita ha sido marcada como completada.");
-            dgvCitas.DataSource = cNCita.VerCitas();
+            dgvCitas.DataSource = cNCita.VerCitasMenu();
         }
 
         private void btnCancelarCita_Click(object sender, EventArgs e)
@@ -154,7 +172,7 @@ namespace CapaPresentacion
             int idCita = (int)idCita1.Value;
             cNCita.ActualizarEstadoCita(idCita, "Cancelada");
             MessageBox.Show("La cita ha sido cancelada.");
-            dgvCitas.DataSource = cNCita.VerCitas();
+            dgvCitas.DataSource = cNCita.VerCitasMenu();
 
         }
     }

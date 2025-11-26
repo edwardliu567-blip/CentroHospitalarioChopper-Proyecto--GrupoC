@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             panelAgregarCita = new Panel();
+            textBoxClave = new TextBox();
+            label1 = new Label();
             s = new Button();
             btnEditarAdmin = new Button();
             dgvAdministradorMan = new DataGridView();
@@ -50,6 +52,8 @@
             // 
             panelAgregarCita.BackColor = Color.PowderBlue;
             panelAgregarCita.BorderStyle = BorderStyle.Fixed3D;
+            panelAgregarCita.Controls.Add(textBoxClave);
+            panelAgregarCita.Controls.Add(label1);
             panelAgregarCita.Controls.Add(s);
             panelAgregarCita.Controls.Add(btnEditarAdmin);
             panelAgregarCita.Controls.Add(dgvAdministradorMan);
@@ -67,6 +71,23 @@
             panelAgregarCita.Name = "panelAgregarCita";
             panelAgregarCita.Size = new Size(700, 416);
             panelAgregarCita.TabIndex = 2;
+            // 
+            // textBoxClave
+            // 
+            textBoxClave.Location = new Point(56, 301);
+            textBoxClave.Name = "textBoxClave";
+            textBoxClave.Size = new Size(172, 23);
+            textBoxClave.TabIndex = 25;
+            textBoxClave.TextChanged += textBoxClave_TextChanged;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(56, 283);
+            label1.Name = "label1";
+            label1.Size = new Size(44, 15);
+            label1.TabIndex = 24;
+            label1.Text = "Clave *";
             // 
             // s
             // 
@@ -95,10 +116,12 @@
             dgvAdministradorMan.Name = "dgvAdministradorMan";
             dgvAdministradorMan.Size = new Size(365, 209);
             dgvAdministradorMan.TabIndex = 21;
+            dgvAdministradorMan.CellClick += dgvAdministradorMan_CellClick;
+            dgvAdministradorMan.CellContentClick += dgvAdministradorMan_CellContentClick;
             // 
             // txtApellidoAdmin
             // 
-            txtApellidoAdmin.Location = new Point(56, 225);
+            txtApellidoAdmin.Location = new Point(56, 192);
             txtApellidoAdmin.Margin = new Padding(2);
             txtApellidoAdmin.Name = "txtApellidoAdmin";
             txtApellidoAdmin.Size = new Size(172, 23);
@@ -106,14 +129,14 @@
             // 
             // txtNombreAdmin
             // 
-            txtNombreAdmin.Location = new Point(56, 174);
+            txtNombreAdmin.Location = new Point(56, 141);
             txtNombreAdmin.Name = "txtNombreAdmin";
             txtNombreAdmin.Size = new Size(172, 23);
             txtNombreAdmin.TabIndex = 19;
             // 
             // txtIDAdmin
             // 
-            txtIDAdmin.Location = new Point(56, 116);
+            txtIDAdmin.Location = new Point(56, 89);
             txtIDAdmin.Name = "txtIDAdmin";
             txtIDAdmin.Size = new Size(172, 23);
             txtIDAdmin.TabIndex = 18;
@@ -122,7 +145,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(56, 208);
+            label8.Location = new Point(56, 175);
             label8.Name = "label8";
             label8.Size = new Size(59, 15);
             label8.TabIndex = 16;
@@ -130,7 +153,7 @@
             // 
             // txtCorreoAdmin
             // 
-            txtCorreoAdmin.Location = new Point(56, 283);
+            txtCorreoAdmin.Location = new Point(56, 250);
             txtCorreoAdmin.Name = "txtCorreoAdmin";
             txtCorreoAdmin.Size = new Size(172, 23);
             txtCorreoAdmin.TabIndex = 12;
@@ -148,7 +171,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(56, 265);
+            label5.Location = new Point(56, 232);
             label5.Name = "label5";
             label5.Size = new Size(44, 15);
             label5.TabIndex = 4;
@@ -157,7 +180,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(56, 156);
+            label4.Location = new Point(56, 123);
             label4.Name = "label4";
             label4.Size = new Size(59, 15);
             label4.TabIndex = 3;
@@ -166,11 +189,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(56, 98);
+            label2.Location = new Point(56, 71);
             label2.Name = "label2";
-            label2.Size = new Size(52, 15);
+            label2.Size = new Size(103, 15);
             label2.TabIndex = 1;
-            label2.Text = "Cédula *";
+            label2.Text = "Cédula (Usuario) *";
             label2.Click += label2_Click;
             // 
             // labelAgregarMedico
@@ -212,5 +235,7 @@
         private DataGridView dgvAdministradorMan;
         private Button s;
         private Button btnEditarAdmin;
+        private TextBox textBoxClave;
+        private Label label1;
     }
 }

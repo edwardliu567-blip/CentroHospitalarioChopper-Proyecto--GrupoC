@@ -58,3 +58,4 @@ C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er A�
 C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaPresentacion\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaPresentacion\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.Properties.Resources.resources
+C:\Users\edwar\OneDrive - Universidad Tecnológica de Panamá\Universidad\3er Año - 2do Semestre\HPA III\Parcial\ProyectoFinalHPA3\CapaPresentacion\obj\Debug\net8.0-windows\CapaPresentacion.sourcelink.json
